@@ -1,0 +1,35 @@
+{
+  "name": "server",
+  "version": "0.0.0",
+  "description": "Server to limber project",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^4.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FernandaGM/server.git"
+  },
+  "keywords": [
+    "npm",
+    "nodejs",
+    "limber"
+  ],
+  "author": "Fernanda G Moreira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FernandaGM/server/issues"
+  },
+  "homepage": "https://github.com/FernandaGM/server#readme"
+}
