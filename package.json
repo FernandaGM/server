@@ -1,35 +1,33 @@
 {
   "name": "server",
-  "version": "0.1.0",
-  "description": "Server to limber project",
-  "main": "index.js",
-  "directories": {
-    "example": "examples",
-    "lib": "lib",
-    "test": "test"
-  },
-  "dependencies": {
-    "chai": "^4.2.0"
-  },
-  "devDependencies": {
-    "mocha": "^5.2.0"
+  "version": "1.0.0",
+  "main": "server/server.js",
+  "engines": {
+    "node": ">=4"
   },
   "scripts": {
-    "test": "mocha"
+    "lint": "eslint .",
+    "start": "node ."
+  },
+  "dependencies": {
+    "compression": "^1.0.3",
+    "cors": "^2.5.2",
+    "express": "^4.16.4",
+    "helmet": "^3.10.0",
+    "loopback": "^3.22.0",
+    "loopback-boot": "^2.6.5",
+    "loopback-component-explorer": "^6.2.0",
+    "serve-favicon": "^2.0.1",
+    "strong-error-handler": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.17.1",
+    "eslint-config-loopback": "^8.0.0"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/FernandaGM/server.git"
+    "type": "",
+    "url": ""
   },
-  "keywords": [
-    "npm",
-    "nodejs",
-    "limber"
-  ],
-  "author": "Fernanda G Moreira",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/FernandaGM/server/issues"
-  },
-  "homepage": "https://github.com/FernandaGM/server#readme"
+  "license": "UNLICENSED",
+  "description": "server"
 }
