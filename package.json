@@ -7,12 +7,13 @@
   },
   "scripts": {
     "lint": "eslint .",
-    "start": "node ."
+    "start": "node index.js"
   },
   "dependencies": {
     "compression": "^1.0.3",
     "cors": "^2.5.2",
     "express": "^4.16.4",
+    "googleapis": "^35.0.0",
     "helmet": "^3.10.0",
     "loopback": "^3.22.0",
     "loopback-boot": "^2.6.5",
